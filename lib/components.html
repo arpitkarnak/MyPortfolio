@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Component Library</title>
+    <link href="/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1>Welcome to Arpit Component Library</h1>
+
+    <p>
+      I am attending neog camp and so i tried to create this which would help me
+      in my future project
+    </p>
+
+    <hr />
+    <br />
+
+    <h2>@typography</h2>
+    <h1>This is biggest heading</h1>
+    <h2>this is second biggest heading</h2>
+    <p>This is normal text and it is jus using paragraph tag</p>
+    <small>This is small text</small>
+    <hr />
+    
+
+    <h2>@container</h2>
+
+    
+    <h3>fluid container</h3>
+    <div class="container">
+      This is is fluid container nd it will go till the end of page
+    </div>
+    
+
+    <h3>center container</h3>
+    <div class="container container-center">
+      This is a centre container and it will go specify breadth
+    </div>
+
+    <hr />
+
+    <h3>@links</h3>
+
+    <a class="link link-primary" href="https://bing.com">Bing search</a>
+    <a class="link link-secondary" href="/">Homepage</a>
+    <hr />
+
+    <h2>@list</h2>
+
+    <h3>unordered list</h3>
+    <p>This list will not have any bullet . For ex. Dots</p>
+
+    <ul class="list-non-bullet">
+      <li>Item One</li>
+      <li>Item Two</li>
+      <li>Item Three</li>
+    </ul>
+
+    <h3>unordered inline list</h3>
+
+    <ul class="list-non-bullet">
+      <li class="list-item-inline">Item One</li>
+      <li class="list-item-inline">Item Two</li>
+      <li class="list-item-inline">Item three</li>
+    </ul>
+
+    <h3>reverse order list</h3>
+
+    <ol reversed>
+      <li>eggs</li>
+      <li>milk</li>
+      <li>chicken</li>
+    </ol>
+
+    <hr />
+
+    <h2>@nav</h2>
+
+    <nav class="navigation container">
+      <div class="nav-brand">ARPITKARN</div>
+      <ul class="list-non-bullet nav-pills">
+        <!--problem is here after using nav pills-->
+        <li class="list-item-inline">
+          <a class="link link-active" href="/home">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/about">About</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/products">Products</a>
+        </li>
+      </ul>
+    </nav>
+
+    <hr />
+
+    <h3>@header</h3>
+
+    <header class="hero">
+      <img class="hero-img" src="/photos/hacker.png" />
+      <h1 class="hero-heading">
+        This is <span class="heading-inverted"> Hacker image</span>
+      </h1>
+    </header>
+
+    <hr />
+
+    <h2>@section</h2>
+
+    <section class="section">
+      <div class="container container-center"></div>
+      <h3>white section</h3>
+      <p>
+        This will have white backgroud. AN he grid on this site was replaced
+        with a custom version, built using CSS Grid. It's a very simple 12
+        column grid that is disabled on mobile. To start using the grid, wrap
+        the desired items with grid-wrapper. Items inside the grid-wrapper use
+        the class col- followed by a number, which should add up to 12.
+      </p>
+    </section>
+
+    <section class="section ow">
+      <div class="container container-center"></div>
+      <h3>off white section</h3>
+      <p>
+        this will have grey background . he grid on this site was replaced with
+        a custom version, built using CSS Grid. It's a very simple 12 column
+        grid that is disabled on mobile. To start using the grid, wrap the
+        desired items with grid-wrapper. Items inside the grid-wrapper use the
+        class col- followed by a number, which should add up to 12.
+      </p>
+    </section>
+
+    <hr />
+
+
+
+
+    <h2>@footer</h2>
+
+    <footer class="footer">
+      <div class="footer-header">Some small heading inside footer</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+            <a class="link" href="/home">
+                Home
+            </a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="/about">
+                About
+            </a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="https://facebook.com">
+                Facebook
+            </a>
+        </li>
+        
+    </ul>
+</footer>
+
+</div>
+</body>
+
+</html>
