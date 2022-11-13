@@ -1,7 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0px;
+  background-color: #e6f2ff;
 }
 
 :root {
@@ -94,8 +96,8 @@ hr {
 }
 
 .hero .hero-img {
-  max-width: 80%;
-  width: 650px;
+  max-width: 200px;
+  width: 80%;
   display: block;
   margin: auto;
 }
@@ -151,4 +153,30 @@ hr {
 /** blogs **/
 .showcase-blog {
   padding-bottom: 6rem;
+}
+
+.hero2-img {
+  max-width: 200px;
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.heading {
+  font-weight: 1000;
+  color: rgb(10, 8, 8);
+  font-size: xx-large;
+  background-color: #6b7280;
+}
+
+.heading2 {
+  font-weight: 1000;
+  color: rgb(10, 8, 8);
+  font-size: xx-large;
+  background-color: #3f6bc5;
+  margin-left: 0rem;
+  margin-right: 20rem;
+  color: #080808;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
