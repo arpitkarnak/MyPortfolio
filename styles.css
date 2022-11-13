@@ -174,8 +174,10 @@ hr {
   color: rgb(10, 8, 8);
   font-size: xx-large;
   background-color: #3f6bc5;
-  margin-left: 0rem;
-  margin-right: 20rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
   color: #080808;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
