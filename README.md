@@ -1,4 +1,4 @@
-Hey this is portfolio of Arpit Karn. I will add more details soon
+Hey, This is portfolio of Arpit Karn. I will add more details soon
 
 Here, you can see my following info:
 
