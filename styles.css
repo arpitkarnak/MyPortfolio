@@ -166,7 +166,9 @@ hr {
   font-weight: 1000;
   color: rgb(10, 8, 8);
   font-size: xx-large;
+  text-align: center;
   background-color: #6b7280;
+  border-radius: 1rem;
 }
 
 .heading2 {
